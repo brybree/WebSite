@@ -5,7 +5,7 @@ description: A simple hello world page
 
 ## Introduction
 
-Text can be **bold**, _italic_, ~~strikethrough~~, or  H~2~O  .
+Text can be **bold**, _italic_, ~~strikethrough~~.
 <br>
 You can [link to another page](guides/example).
 <br>
@@ -51,4 +51,4 @@ An image (is worth a thousand words):
 ![A houston](../../../assets/houston.webp "This is a caption")
 
 ## Conclusion
-[my introduction](#introduction) navigates directly to my Introduction.
+[The introduction](#introduction) navigates directly to the Introduction.
