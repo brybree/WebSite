@@ -28,24 +28,21 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'How To',
 					translations: {
-						'fr': 'Le guide ahah',
+						'fr': 'Comment Faire',
 					},
 					collapsed: true,
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-						{ label: 'Hello', slug: 'hello', 
-							badge: {
-								text: {
-									en: 'new',
-									fr: 'nouveau',
-								},
-								variant: 'tip', 
-							},
+					autogenerate: { directory: 'howto'},
+				},
+				{ label: 'Hello', slug: 'hello', 
+					badge: {
+						text: {
+							en: 'new',
+							fr: 'nouveau',
 						},
-					],
+						variant: 'tip', 
+					},
 				},
 				{
 					label: 'Reference',
