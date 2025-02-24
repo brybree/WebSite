@@ -7,7 +7,7 @@ import starlightBlog from 'starlight-blog';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://bonnty.github.io',
-	base: 'WebSite',
+	base: '/WebSite',
 	integrations: [
 		starlight({
 			plugins: [starlightImageZoom(), starlightBlog()],
