@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
-import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +9,7 @@ export default defineConfig({
 	base: '/WebSite',
 	integrations: [
 		starlight({
-			plugins: [starlightImageZoom(), starlightBlog()],
+			plugins: [starlightImageZoom()],
 			customCss: [
 				'./src/styles/custom.css',
 			],
@@ -22,15 +21,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'How To',
-					collapsed: true,
+					collapsed: false,
 					autogenerate: { directory: 'howto'},
 				},
 				{ 
 					label: 'Hello', slug: 'hello', 
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
