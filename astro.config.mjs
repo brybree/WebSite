@@ -6,7 +6,7 @@ import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://bonnty.github.io',
+	site: 'https://brybree.github.io',
 	base: '/WebSite',
 	integrations: [
 		starlight({
@@ -16,34 +16,17 @@ export default defineConfig({
 			],
 			title: 'My Docs',
 			defaultLocale:'en',
-			locales:{
-				en:{
-					label: 'English',
-				},
-				fr:{
-					label: 'Français',
-				},
-			},
 			social: {
-				github: 'https://github.com/bonnty',
+				github: 'https://github.com/brybree',
 			},
 			sidebar: [
 				{
 					label: 'How To',
-					translations: {
-						'fr': 'Comment Faire',
-					},
 					collapsed: true,
 					autogenerate: { directory: 'howto'},
 				},
-				{ label: 'Hello', slug: 'hello', 
-					badge: {
-						text: {
-							en: 'new',
-							fr: 'nouveau',
-						},
-						variant: 'tip', 
-					},
+				{ 
+					label: 'Hello', slug: 'hello', 
 				},
 				{
 					label: 'Reference',

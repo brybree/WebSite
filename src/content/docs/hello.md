@@ -48,7 +48,7 @@ npm create astro@latest -- --template starlight
 :::
 
 An image (is worth a thousand words):
-![A houston](../../../assets/houston.webp "This is a caption")
+![A houston](../../assets/houston.webp "This is a caption")
 
 ## Conclusion
 [The introduction](#introduction) navigates directly to the Introduction.

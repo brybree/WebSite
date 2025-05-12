@@ -6,7 +6,7 @@ tags:
 draft: false
 cover:
   alt: README
-  image: ../../../../assets/README.webp
+  image: ../../../assets/README.webp
 ---
 
 ## README
