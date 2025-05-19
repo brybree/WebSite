@@ -1,7 +1,6 @@
 ---
 title: Automating Image Layout in LaTeX with Python
 description: Simple python script to automate the generation of LaTex "\includegraphics commands" by reading from a folder
-draft: true
 ---
 
 So I had a few images to print at specific dimensions, I used LaTex (via TeXstudio) and quickly came up with this solution:
@@ -57,6 +56,6 @@ subprocess.run("xsel --clipboard --input", input=text.encode(), shell=True)
 ```
 
 Now I can just :
-- Choose the images I want,
+- Put the images I want in the 'images' folder.
 - Run the script,
 - And paste the result directly into my latex document.
