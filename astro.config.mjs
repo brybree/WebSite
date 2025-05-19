@@ -30,9 +30,6 @@ export default defineConfig({
 					autogenerate: { directory: 'daily-learnings'},
 				},
 				{
-					label: 'Good Writings', slug: 'good-writings',
-				},
-				{
 					label: 'Hello', slug: 'hello', 
 				},
 			],
