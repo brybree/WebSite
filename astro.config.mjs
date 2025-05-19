@@ -15,9 +15,9 @@ export default defineConfig({
 			],
 			title: 'My Docs',
 			defaultLocale:'en',
-			social: {
-				github: 'https://github.com/brybree',
-			},
+			social: [
+				{ icon: 'github', label: 'Github', href: 'https://github.com/brybree'},
+			],
 			sidebar: [
 				{
 					label: 'How To',
