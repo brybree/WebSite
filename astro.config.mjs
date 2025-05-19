@@ -24,7 +24,15 @@ export default defineConfig({
 					collapsed: false,
 					autogenerate: { directory: 'howto'},
 				},
-				{ 
+				{
+					label: 'Daily Learnings',
+					collapsed: false,
+					autogenerate: { directory: 'daily-learnings'},
+				},
+				{
+					label: 'Good Writings', slug: 'good-writings',
+				},
+				{
 					label: 'Hello', slug: 'hello', 
 				},
 			],
